@@ -2,9 +2,10 @@ vim.pack.add { 'https://github.com/folke/tokyonight.nvim' }
 vim.pack.add { 'https://github.com/taybart/b64.nvim' }
 vim.cmd.colorscheme 'tokyonight-night'
 
-vim.o.shell = 'nu.exe'
-vim.opt.sh = 'nu'
-vim.opt.shellcmdflag = '-c'
+vim.o.shell = 'pwsh.exe'
+vim.opt.sh = 'pwsh'
+-- not needed for pwsh:
+-- vim.opt.shellcmdflag = '-c'
 vim.opt.shellquote = ''
 vim.opt.shellxquote = ''
 
